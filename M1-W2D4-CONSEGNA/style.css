@@ -1,0 +1,241 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.nav {
+    height: 10vh;
+    display: flex;
+    border-color: black;
+    justify-content: space-between;
+    
+
+}
+
+.logo {
+    width: 17%;
+    height: 45%;
+    padding-left: 5%;
+    margin-top: 1%;
+}
+
+.icon-group {
+    align-self: center;
+    display: flex;
+    justify-content: end;
+    padding-right: 10vh;
+    gap: 1vh;
+
+}
+
+.icon-top-ricerca {
+    width: 3%;
+    height: 3%;
+    padding-top: 2%;
+        
+}
+
+.icon-top-elementi {
+    width: 3%;
+    height: 3%;
+    padding-top: 2%;
+    
+}
+
+.icon-top-campanella {
+    width: 4%;
+    height: 3%;
+    padding-top: 2%;
+    
+}
+
+.button {
+    border-radius: 20px;
+    padding: 1%;
+    font-weight: bold;
+    border-width: 1px;
+    
+}
+
+.icon-top-logo {
+    width: 6%;
+    
+
+}
+
+.hr {
+    height: 2px;
+    color: black;
+    background-color: black;
+}
+
+body {
+    height: 100vh;
+    position: relative;
+    
+}
+
+
+.body-left {
+    width: 60%;
+    height: 100%;
+    margin-left: 5%;
+    display: inline-block;
+}
+
+.sector-selection {
+    margin-top: 5%;
+    font-size: larger;
+}
+
+#primo-span {
+    padding-left: 3%;
+}
+
+.hr2 {
+    margin-top: 2%;
+    height: 3px;
+}
+
+.body-left-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 4% 0%;
+    
+    
+}
+
+.text-part {
+    width: 70%;
+}
+
+.text-part-title {
+    font-size: x-large;
+    font-weight: bold;
+   
+}
+
+
+.img {
+    width: 200px;
+
+}
+
+.btn {
+    font-size: smaller;
+    
+
+}
+
+.body-right {
+    width: 35%;
+    position: absolute;
+    right: 0%;
+    top: 10%;
+    
+}
+
+.small-logo-container {
+    display: inline;
+    margin-left: 45%;
+}
+
+.small-logo {
+    width: 35px;
+    margin-top: 10%;
+}
+
+.normal-text {
+    text-align: center;
+    font-size: large;
+    margin: 3% 0;
+}
+
+.connect-btn {
+    width: 35%;
+    margin-left: 35%;
+    border-radius: 20px;
+    padding-bottom: 1%;
+    border: none;
+    border-color: black;
+}
+
+.small-logo-btn {
+    width: 35px;
+    
+}
+
+.maybe-later {
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 5%;
+    color: gray;
+    text-decoration: underline;
+    font-size: larger;
+}
+
+.hr3 {
+    margin: 6% 0% ;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.recommended {
+    font-size: 3vh;
+    padding-left: 10vh;
+}
+
+.btn-container1{
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.topics-btn {
+    width: 23%;
+    height: 40px;
+    margin-left: 2%;
+    border-radius: 20px;
+    padding-bottom: 1%;
+    border: none;
+    border-color: black;
+    font-size: larger;
+    background-color: rgb(201, 201, 201);
+}
+
+.profile {
+    margin-left: 14%;
+    margin-top: 3%;
+    
+}
+
+.profile-img {
+    display: inline-block;
+    border-radius: 100%;
+}
+
+.profile-text {
+    display: inline-block;
+    margin-left: 5%;
+    font-size: 150%;
+
+
+}
+
+.profile-text-span {
+    font-weight: bold;
+}
+
+.profile-btn {
+    display: inline-block;
+    margin-left: 20%;
+    width: 17%;
+    height: 45px;
+    border-radius: 40%;
+    border-width: 1px;
+    border-color: black;
+    font-size: larger;
+}
+
+
