@@ -9,3 +9,17 @@
     
     
 }
+
+.flex-container{
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    gap: 5%;
+}
+
+
+
+.title-list {
+    background-color: blueviolet;
+
+}
