@@ -1,0 +1,8 @@
+-usare <git status> per vedere le differenze tra i file locali e remoti
+
+-usare <git add .> per aggiungere tutti i file e le cartelle dal percorso dove ci troviamo
+
+-usare <git commit -m "testo del commit"> per fare il commit dei nuovi file
+
+infine usare <git push origin main> per fare l' upload dei file. in questo caso "origin" fa riferimento alla cartella locale mentre "main" è
+il nome precedentemente scelto per il main branch su github.
