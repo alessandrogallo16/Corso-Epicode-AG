@@ -1,11 +1,15 @@
-let risultato = 0
 
-for (let i = 0; i < 11; i++ ) {
-  risultato += 5
-  if (i === 3) {
-    continue
-  } else if (i === 8) {
-    continue
-  }
-  console.log(risultato)
+
+function Tabellina (num) {
+    if (num <= 0) {
+        console.log(`metti un numero diverso da 0`)
+    } else {
+        for (let i = 1; i < 11; i++) {
+            let risultato = num * i
+            console.log(`il risultato è ${risultato}`)
+
+        }
+    }
 }
+
+Tabellina(22)
