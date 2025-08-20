@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Alex Shop</title>
+</head>
+<body id="body" class="colore2">
+    <h1 id="title-h1">Welcome to Alex Shop</h1>
+    <div class="product-div"> 
+        <h3>Iphone 15</h3>
+        <img src="./iphone15.jpg" alt="Iphone image" class="product-img">
+        <p>Nuovo modello di Iphone</p>
+        <h2 class="price">Prezzo: €600</h2>
+        <a href="https://amzn.eu/d/fxXt123" class="link">link Amazon</a>
+    </div>    
+    <div class="product-div"> 
+        <h3>Samsung Galaxy A16</h3>
+        <img src="./galaxyA16.jpg" alt="Galaxy A16 image" class="product-img">
+        <p>Nuovo modello di Samsung</p>
+        <h2 class="price">Prezzo: €130</h2>
+        <a href="https://amzn.eu/d/5brNgm8" class="link">link Amazon</a>
+    </div>
+    <div class="product-div"> 
+        <h3>Xiaomi Redmi Note 14</h3>
+        <img src="./Xiaomi.jpg" alt="Xiaomi Redmi Note 14 image"class="product-img">
+        <p>Nuovo modello di Xiaomi</p>
+        <h2 class="price">Prezzo: €150</h2>
+        <a href="https://amzn.eu/d/gfahQWF" class="link">link Amazon</a>
+    </div>
+    <div class="product-div"> 
+        <h3>Motorola moto g15</h3>
+        <img src="./motorola.jpg" alt="Motorola moto g15 image"class="product-img">
+        <p>Nuovo modello di Motorola</p>
+        <h2 class="price">Prezzo: €115</h2>
+        <a href="https://amzn.eu/d/1T1rrp4" class="link">link Amazon</a>
+    </div>
+    <div class="product-div"> 
+        <h3>OnePlus Smartphone Nord 5</h3>
+        <img src="./oneplus.jpg" alt="OnePlus Smartphone Nord 5 image"class="product-img">
+        <p>Nuovo modello di OnePlus</p>
+        <h2 class="price">Prezzo: €459</h2>
+        <a href="https://amzn.eu/d/1lPObO1" class="link">link Amazon</a>
+    </div>
+    <div class="review-box">
+    <h4>Lascia una recensione</h4>
+    <h5>Seleziona il prodotto che vuoi recensire</h5>
+    <select id="product-selection">
+        <option value="Iphone 15">Iphone 15</option>
+        <option value="Samsung Galaxy A16">Samsung Galaxy A16</option>
+        <option value="Xiaomi Redmi Note 14">Xiaomi Redmi Note 14</option>
+        <option value="Motorola moto g15">Motorola moto g15</option>
+        <option value="OnePlus Smartphone Nord 5">OnePlus Smartphone Nord 5</option>
+    </select>
+    <br>
+    <input type="text" name="review-text" >
+    
+
+
+    </div>
+
+    <footer>
+        <h3 id="address">Alex Shop - Via Roma 5, Milano, Italy</h3>
+    </footer>
+
+    <button class="btn" onclick="changeTitle()">CAMBIA TITOLO</button>
+    <button class="btn" onclick="changeBackColor()">CAMBIA COLORE SFONDO</button>
+    <button class="btn" onclick="changeAddress()">CAMBIA INDIRIZZO</button>
+    <button class="btn" onclick="changeLinks()">CAMBIA STILE LINKS</button>
+    <button class="btn" onclick="imgDelete()">NASCONDI/MOSTRA IMMAGINI</button>
+    <button class="btn" onclick="changePriceColor()">CAMBIA COLORE AL PREZZO</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+

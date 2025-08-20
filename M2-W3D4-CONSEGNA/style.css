@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.colore1 {
+    background-color: aquamarine;
+}
+
+.colore2 {
+    background-color: darkolivegreen;
+}
+
+.product-div {
+    display: inline-block;
+    margin: 10px;
+}
+
+.product-img {
+    width: 150px;
+    height: 150px;
+}
+
+.img-none {
+    display: none;
+}
+
+#product-selection {
+    margin: 10px 0px
+}
+
+.btn {
+    margin: 20px;
+}
+
+.amazon-link {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: deepskyblue;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
