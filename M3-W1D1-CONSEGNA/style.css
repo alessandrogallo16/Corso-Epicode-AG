@@ -1,0 +1,52 @@
+.display-4.font-italic {
+
+}
+
+.nav.d-flex.justify-content-between.mb-2 span {
+    
+}
+
+.font-weight-bold {
+
+}
+
+.blog-post:first-of-type {
+    
+}
+
+.blog-post:first-of-type hr {
+    color: red;
+    height: 15px;
+    border 5px;
+    width: 50%;
+
+    font-weight: 800;
+}
+
+.nav.d-flex.justify-content-between.mb-2 span:nth-child(odd) {
+    
+}
+
+.list-unstyled.mb-0 li {
+    
+}
+
+.blog-post:nth-of-type(2) p:first-of-type a {
+    background-color: aqua;
+}
+
+.blog-post ul li:nth-of-type(2) {
+
+}
+
+.float-right.mb-3.mr-3 {
+
+}
+
+.blog-pagination a:last-of-type {
+    
+}
+
+.blog-footer p a:last-of-type {
+    
+}
