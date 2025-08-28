@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+
+}
+
+.card-ctn {
+    width: 300px;
+    height: 400px;
+   
+}
+
+.card-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 60px 60px 0 0;
+}
+
+.card-text-ctn {
+    padding: 10%;
+    background-color: bisque;
+    margin-top: -1.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20%;
+    border-radius: 0 0 60px 60px;
+}
+
+.span-text {
+    font-weight: 400;
+}
+
+.card-btn {
+    margin-top: 5%;
+    padding: 5% 15%;
+    background-color: gold;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.navbar {
+    background-color: rgb(242, 210, 171);
+    width: 800px;
+    height: 100px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.nav-btn {
+    padding: 2% 3%;
+    background-color: gold;
+    border-radius: 40px;
+    border-style: none;
+}
+
+.big-btn {
+    padding: 4% 8%;
+    border-radius: 60px;
+    font-weight: bold;
+    font-size: larger;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-icon {
+    width: 30%;
+    height: 30%;
+    margin-right: 50px;
+}
+
+.article-ctn {
+    width: 1500px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    align-items: center ;
+    background-color: blanchedalmond;
+
+}
+
+.article-ctn img {
+    width: 50%;
+    height: 50%;
+    padding:
+}
+
+.article-title {
+    font-size: larger;
+    font-weight: bold;
+    
+}
+
+.article-ctn p {
+    width: 50%;
+    height: 50%;
+}
