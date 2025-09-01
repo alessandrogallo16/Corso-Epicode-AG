@@ -1,0 +1,30 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+ 
+
+
+#nav-img  {
+    width: 50px;
+    height: auto;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+#daily-sales-img {
+    width: 66%;
+    height: 300px;
+
+    
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.854 0.146a.5.5 0 0 1 0 .708L3.707 3.5l2.147 2.146a.5.5 0 0 1-.708.708L2.5 3.854a.5.5 0 0 1 0-.708L5.146 0.146a.5.5 0 0 1 .708 0z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.146 0.146a.5.5 0 0 1 .708 0L5.5 2.793a.5.5 0 0 1 0 .707L2.854 6.146a.5.5 0 0 1-.708-.707L4.293 3.5 2.146 1.354a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E");
+}
+
+
