@@ -1,0 +1,51 @@
+
+body {
+    background-color: rgb(19, 41, 82);
+}
+
+.icon{
+    
+    color: white;
+    margin: 0;
+    padding: 0 2%;
+    
+}
+
+.img {
+    height: 30vh;
+    object-fit: cover;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #666;
+  margin: 0 4px;
+  border: none;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.carousel-indicators .active {
+  opacity: 1;
+  background-color: #ffffff;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px; 
+  box-sizing: border-box;
+}
+
+.swiper-slide img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); 
+}
+
+
+
