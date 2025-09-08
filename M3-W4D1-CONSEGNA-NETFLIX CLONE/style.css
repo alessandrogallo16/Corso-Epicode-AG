@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 3vh !important;
+}
+
+.navbar-toggler-icon {
+    color: white !important;
+    background-color: white !important;
+    
+}
+
+body {
+    background-color: rgb(31, 29, 29);
+    margin-left: 3%;
+}
+
+.navbar {
+    background-color: rgb(31, 29, 29) !important;
+}
+
+.navbar-logo {
+    width: 5%;
+    
+   
+}
+
+.navbar-logo img {
+
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.navbar-rightside a {
+    font-size: 70%;
+}
+
+.dropdown {
+    display: inline;
+}
+
+.icon1 {
+    border: 1px !important;
+    border-color: gray !important;
+    border-style: solid !important;
+    padding: 0 6%  !important;
+    margin: 0 !important;
+
+}
+
+.icon1:hover {
+    border-color: aliceblue !important;
+}
+
+.genre-bar-button {
+    background-color: black;
+    border-radius: 0;
+    margin: 0 2%;
+    padding: 0.2% 3%;
+    padding-left: 0.8%;
+    
+}
+
+.genre-bar-button::after {
+  margin-left: 50%; 
+}
+
+.card {
+    border-radius: 5%;
+    border: 0;
+    border-style: hidden;
+    margin: 0 1px;
+    border-color: rgb(31, 29, 29);
+}
+
+.card-img-top {
+    border-radius: 0;
+}
+
+
+.card-body {
+    display: none;
+}
+
+.card-body-show {
+    display: block;
+}
+
+
+.footer-div {
+    width: 80vh;
+    margin-bottom: 0 !important;
+    
+}
+
+.footer-icon {
+    font-size: 150%;
+    padding: 0 1%;
+    color: gray;
+}
+
+.footer-row {
+    font-size: 70%;
+    color: gray;
+    padding: 0.5% 0;
+}
+
+.footer-row button {
+    color: grey;
+    background-color: transparent;
+    border-style: solid;
+    border-color: grey;
+}
+
+
+.footer-text {
+    font-size: 70%;
+}
+
+.link {
+    text-decoration: none;
+    color: grey;
+}
